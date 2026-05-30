@@ -5705,3 +5705,143 @@ SWITCH_ZEMISMART_TS0601_6GANG:
   info: Needs pinout. Secondary MCU. 6-gang!
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/209
   store: https://www.zemismart.com/products/tb26-6
+
+SWITCH_LONSONHO_TS0001_b7s7xsow:
+  human_name: Lonsonho 1 Gang Switch (b7s7xsow)
+  category: switch
+  power: mains
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: TS0001
+  stock_manufacturer_name: _TZ3000_b7s7xsow
+  stock_converter_manufacturer: Tuya
+  stock_converter_model: TS0001_switch_1_gang
+  override_z2m_device: null
+  tuya_module: ZT3L
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: LC3;BC0u;RC2;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 43605
+  build: yes
+  status: custom
+  info: PCB A3M04-10/LH1F02. Pinout traced by user.
+  threads: null
+  store: null
+
+SWITCH_LONSONHO_TS0001_ehgouyvu:
+  human_name: Lonsonho X701A 1 Gang Switch
+  category: switch
+  power: mains
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: TS0001
+  stock_manufacturer_name: _TZ3000_ehgouyvu
+  stock_converter_manufacturer: Lonsonho
+  stock_converter_model: X701A
+  override_z2m_device: null
+  tuya_module: ZT3L
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: LC3;BC0u;RC2;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 43605
+  build: yes
+  status: custom
+  info: PCB A3M04-10/LH1F02. Same PCB as b7s7xsow, config assumed same - needs verification.
+  threads: null
+  store: null
+
+SWITCH_LONSONHO_TS0002_aa5t61rh:
+  human_name: Lonsonho X702A 2 Gang Switch
+  category: switch
+  power: mains
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: TS0002
+  stock_manufacturer_name: _TZ3000_aa5t61rh
+  stock_converter_manufacturer: Lonsonho
+  stock_converter_model: X702A
+  override_z2m_device: null
+  tuya_module: ZT3L
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: LC3;BC0u;RC2;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 43605
+  build: yes
+  status: custom
+  info: PCB A3M04-10/LH1F02. Config string placeholder - needs pinout verification.
+  threads: null
+  store: null
+
+SWITCH_LONSONHO_TS0003_rhkfbfcv:
+  human_name: Lonsonho X703A 3 Gang Switch
+  category: switch
+  power: mains
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: TS0003
+  stock_manufacturer_name: _TZ3000_rhkfbfcv
+  stock_converter_manufacturer: Lonsonho
+  stock_converter_model: X703A
+  override_z2m_device: null
+  tuya_module: ZT3L
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: LC3;BC0u;RC2;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 43605
+  build: yes
+  status: custom
+  info: PCB A3M04-10/LH1F02. Same board as other models. Config string placeholder - needs pinout verification.
+  threads: null
+  store: null
+
+SWITCH_TUYA_TS0004_vit9k2nb:
+  human_name: Tuya 4 Gang Switch (vit9k2nb)
+  category: switch
+  power: mains
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: TS0004
+  stock_manufacturer_name: _TZ3000_vit9k2nb
+  stock_converter_manufacturer: Tuya
+  stock_converter_model: TS0004_switch_4_gang
+  override_z2m_device: null
+  tuya_module: ZT3L
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: LC3;BC0u;RC2;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 43605
+  build: yes
+  status: custom
+  info: PCB A3M04-10/LH1F02. Config string placeholder - needs full 4-gang pinout verification.
+  threads: null
+  store: null
