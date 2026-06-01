@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./device_db.schema.json
 
-# ========== Device database ========== 
-# 
+# ========== Device database ==========
+#
 # Please refer to device_db_explained.md
-# 
+#
 # And use the schema for validation!
 #   (e.g. in VSCode with YAML extension)
-# 
+#
 # Rules:
 # - Follow the format
 # - Fill empty values with null
@@ -28,7 +28,7 @@ SWITCH_LONSONHO_TS0001_b7s7xsow:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: LC3;BC0u;RC2;
+  config_str: b7s7xsow;TS0001-LS;SC2u;RC3;IB1;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
@@ -36,8 +36,8 @@ SWITCH_LONSONHO_TS0001_b7s7xsow:
   stock_image_type: 54179
   firmware_image_type: 43605
   build: yes
-  status: custom
-  info: PCB A3M04-10/LH1F02. Pinout confirmed by user tracing.
+  status: mostly_supported
+  info: PCB A3M04-10/LH1F02. Same PCB as ehgouyvu, pinout assumed same - needs verification.
   threads: null
   store: null
 
@@ -56,16 +56,16 @@ SWITCH_LONSONHO_TS0001_ehgouyvu:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: LC3;BC0u;RC2;
+  config_str: ehgouyvu;TS0001-LS;SC2u;RC3;IB1;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
   stock_manufacturer_id: 4417
   stock_image_type: 54179
-  firmware_image_type: 43605
+  firmware_image_type: 43606
   build: yes
-  status: custom
-  info: PCB A3M04-10/LH1F02. Same PCB as b7s7xsow, config confirmed same.
+  status: fully_supported
+  info: PCB A3M04-10/LH1F02. Pinout confirmed by user testing.
   threads: null
   store: null
 
@@ -84,16 +84,16 @@ SWITCH_LONSONHO_TS0002_aa5t61rh:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: LC3;BC0u;RC2;LD2;BB5u;RD7;
+  config_str: aa5t61rh;TS0002-LS;SC2u;RC3;IB1;SD2u;RD3;IB2;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
   stock_manufacturer_id: 4417
   stock_image_type: 54179
-  firmware_image_type: 43605
+  firmware_image_type: 43607
   build: yes
-  status: custom
-  info: PCB A3M04-10/LH1F02. Config string educated guess - needs verification.
+  status: in_progress
+  info: PCB A3M04-10/LH1F02. Gang 1 pinout assumed from ehgouyvu. Gang 2 pins unconfirmed - needs verification.
   threads: null
   store: null
 
@@ -112,16 +112,16 @@ SWITCH_LONSONHO_TS0003_rhkfbfcv:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: LC3;BC0u;RC2;LD2;BB5u;RD7;LC4;BB4u;RD4;
+  config_str: rhkfbfcv;TS0003-LS;SC2u;RC3;IB1;SD2u;RD3;IB2;SD3u;RD4;IB3;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
   stock_manufacturer_id: 4417
   stock_image_type: 54179
-  firmware_image_type: 43605
+  firmware_image_type: 43608
   build: yes
-  status: custom
-  info: PCB A3M04-10/LH1F02. Config string educated guess - needs verification.
+  status: in_progress
+  info: PCB A3M04-10/LH1F02. Gang 1 pinout assumed from ehgouyvu. Gang 2+3 pins unconfirmed - needs verification.
   threads: null
   store: null
 
@@ -140,15 +140,15 @@ SWITCH_TUYA_TS0004_vit9k2nb:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: LC3;BC0u;RC2;LD2;BB5u;RD7;LC4;BB4u;RD4;LA0;BA0u;RD4;
+  config_str: vit9k2nb;TS0004-LS;SC2u;RC3;IB1;SD2u;RD3;IB2;SD3u;RD4;IB3;SD4u;RD5;IB4;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
   stock_manufacturer_id: 4417
   stock_image_type: 54179
-  firmware_image_type: 43605
+  firmware_image_type: 43609
   build: yes
-  status: custom
-  info: PCB A3M04-10/LH1F02. Config string educated guess - needs verification.
+  status: in_progress
+  info: PCB A3M04-10/LH1F02. Gang 1 pinout assumed from ehgouyvu. Gang 2+3+4 pins unconfirmed - needs verification.
   threads: null
   store: null
