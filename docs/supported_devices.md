@@ -41,10 +41,10 @@ Support new devices: [contribute/porting.md](/docs/contribute/porting.md)
 
 | 🚧 | 📦 | 💡 | ⚡️ | 📲 |  🏭  | Zb&nbsp;Manufacturer <br> Zb&nbsp;Model | Name <br> Z2M&nbsp;page&nbsp;🔗 | Store | Threads | Status |
 | -- | -- | -- | -- | -- | :--: | :-------------------------------------- | :------------------------------ | ----: | ------: | :----- |
-|  | ✔️ | 🇸 | 🔌 | 🛜 | **TL** | `_TZ3000_b7s7xsow` <br> `TS0001` | [Lonsonho 1 Gang Switch (b7s7xsow)](https://www.zigbee2mqtt.io/devices/TS0001_switch_1_gang.html) |   |   | PCB A3M04-10/LH1F02. Pinout confirmed by user tracing. | 
-|  | ✔️ | 🇸 | 🔌 | 🛜 | **TL** | `_TZ3000_ehgouyvu` <br> `TS0001` | [Lonsonho X701A 1 Gang Switch](https://www.zigbee2mqtt.io/devices/X701A.html) |   |   | PCB A3M04-10/LH1F02. Same PCB as b7s7xsow, config confirmed same. | 
-|  | ✔️ | 🇸 | 🔌 | 🛜 | **TL** | `_TZ3000_aa5t61rh` <br> `TS0002` | [Lonsonho X702A 2 Gang Switch](https://www.zigbee2mqtt.io/devices/X702A.html) |   |   | PCB A3M04-10/LH1F02. Config string educated guess - needs verification. | 
-|  | ✔️ | 🇸 | 🔌 | 🛜 | **TL** | `_TZ3000_rhkfbfcv` <br> `TS0003` | [Lonsonho X703A 3 Gang Switch](https://www.zigbee2mqtt.io/devices/X703A.html) |   |   | PCB A3M04-10/LH1F02. Config string educated guess - needs verification. | 
-|  | ✔️ | 🇸 | 🔌 | 🛜 | **TL** | `_TZ3000_vit9k2nb` <br> `TS0004` | [Tuya 4 Gang Switch (vit9k2nb)](https://www.zigbee2mqtt.io/devices/TS0004_switch_4_gang.html) |   |   | PCB A3M04-10/LH1F02. Config string educated guess - needs verification. | 
+| 🟨 | ✔️ | 🇸 | 🔌 | 🛜 | **TL** | `_TZ3000_b7s7xsow` <br> `TS0001` | [Lonsonho 1 Gang Switch (b7s7xsow)](https://www.zigbee2mqtt.io/devices/TS0001_switch_1_gang.html) |   |   | PCB A3M04-10/LH1F02. Same PCB as ehgouyvu, pinout assumed same - needs verification. | 
+| 🟩 | ✔️ | 🇸 | 🔌 | 🛜 | **TL** | `_TZ3000_ehgouyvu` <br> `TS0001` | [Lonsonho X701A 1 Gang Switch](https://www.zigbee2mqtt.io/devices/X701A.html) |   |   | PCB A3M04-10/LH1F02. Pinout confirmed by user testing. | 
+| 🟧 | ✔️ | 🇸 | 🔌 | 🛜 | **TL** | `_TZ3000_aa5t61rh` <br> `TS0002` | [Lonsonho X702A 2 Gang Switch](https://www.zigbee2mqtt.io/devices/X702A.html) |   |   | PCB A3M04-10/LH1F02. Gang 1 pinout assumed from ehgouyvu. Gang 2 pins unconfirmed - needs verification. | 
+| 🟧 | ✔️ | 🇸 | 🔌 | 🛜 | **TL** | `_TZ3000_rhkfbfcv` <br> `TS0003` | [Lonsonho X703A 3 Gang Switch](https://www.zigbee2mqtt.io/devices/X703A.html) |   |   | PCB A3M04-10/LH1F02. Gang 1 pinout assumed from ehgouyvu. Gang 2+3 pins unconfirmed - needs verification. | 
+| 🟧 | ✔️ | 🇸 | 🔌 | 🛜 | **TL** | `_TZ3000_vit9k2nb` <br> `TS0004` | [Tuya 4 Gang Switch (vit9k2nb)](https://www.zigbee2mqtt.io/devices/TS0004_switch_4_gang.html) |   |   | PCB A3M04-10/LH1F02. Gang 1 pinout assumed from ehgouyvu. Gang 2+3+4 pins unconfirmed - needs verification. | 
 
 Data from [`device_db.yaml`](/device_db.yaml)
