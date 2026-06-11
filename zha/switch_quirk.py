@@ -232,9 +232,9 @@ class CustomWindowCoveringCluster(CustomCluster, WindowCovering):
 CONFIGS = [
     "b7s7xsow;TS0001-LS;SC2u;RC3;IB1;",
     "ehgouyvu;TS0001-LS;SC2u;RC3;IB1;",
-    "aa5t61rh;TS0002-LS;SC2u;RC3;IB1;SD2u;RD3;IB2;",
-    "rhkfbfcv;TS0003-LS;SC2u;RC3;IB1;SD2u;RD3;IB2;SD3u;RD4;IB3;",
-    "vit9k2nb;TS0004-LS;SC2u;RC3;IB1;SD2u;RD3;IB2;SD3u;RD4;IB3;SD4u;RD5;IB4;",
+    "aa5t61rh;TS0002-LS;SA0u;RB4;ID7;SB7u;RB5;ID2;M;",
+    "rhkfbfcv;TS0003-LS;SA0u;RB4;ID7;SC2u;RC3;IB1;SB7u;RB5;ID2;M;",
+    "vit9k2nb;TS0004-LS;RB4;RD2;RB5;RD7;IB1;IB7;ID4;IC0;SA0u;SC4u;SC2u;SC3u;M;",
 ]
 
 for config in CONFIGS:
