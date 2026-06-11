@@ -84,7 +84,7 @@ SWITCH_LONSONHO_TS0002_aa5t61rh:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: aa5t61rh;TS0002-LS;SC2u;RC3;IB1;SD2u;RD3;IB2;
+  config_str: aa5t61rh;TS0002-LS;SA0u;RB4;ID7;SB7u;RB5;ID2;M;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
@@ -112,7 +112,7 @@ SWITCH_LONSONHO_TS0003_rhkfbfcv:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: rhkfbfcv;TS0003-LS;SC2u;RC3;IB1;SD2u;RD3;IB2;SD3u;RD4;IB3;
+  config_str: rhkfbfcv;TS0003-LS;SA0u;RB4;ID7;SC2u;RC3;IB1;SB7u;RB5;ID2;M;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
@@ -140,7 +140,7 @@ SWITCH_TUYA_TS0004_vit9k2nb:
   tuya_module: ZT3L
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: vit9k2nb;TS0004-LS;SC2u;RC3;IB1;SD2u;RD3;IB2;SD3u;RD4;IB3;SD4u;RD5;IB4;
+  config_str: vit9k2nb;TS0004-LS;RB4;RD2;RB5;RD7;IB1;IB7;ID4;IC0;SA0u;SC4u;SC2u;SC3u;M;
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
